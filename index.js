@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
 
 app.use(express.static(__dirname + '/public/'))
 
-app.listen(8886, () => {
+app.listen(8886, '0.0.0.0', () => {
     console.log('Server is running on http://localhost:8886');
     });
 
