@@ -1,0 +1,26 @@
+{
+  "name": "simpewebserver",
+  "version": "1.0.0",
+  "description": "for http download files...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/otherwis/SimpleWebServer.git"
+  },
+  "keywords": [
+    "web"
+  ],
+  "author": "ted",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/otherwis/SimpleWebServer/issues"
+  },
+  "homepage": "https://github.com/otherwis/SimpleWebServer#readme",
+  "dependencies": {
+    "express": "^4.21.1",
+    "simpewebserver": "file:"
+  }
+}
